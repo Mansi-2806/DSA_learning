@@ -5,8 +5,9 @@ public class array_searching {
         boolean found=false;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == element) {
-                System.out.println("the element is found at postion" + " " + i);
                 found = true;
+                System.out.println("the element is found at postion" + " " + i);
+
                 break;
             }
         }
